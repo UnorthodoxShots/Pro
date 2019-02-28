@@ -1,0 +1,237 @@
+body {
+	background-color: black;
+	font-family:Arial, sans-serif,monospace;
+	}
+
+
+#Container {
+	background-color: #00CC33;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#header { 
+	width:1188px;
+	height:190px;
+	background-image:url("C:/Users/My Computer/Desktop/Web-site/images/naut2.jpg");
+	background-size:cover;
+	Color:blue;
+	background-color: ;
+	padding: 5px;
+	text-Align: center;
+	border: 1px solid black;
+}
+#nav {
+	Color:yellow; 
+	background-color:orange; 
+	width:180px;
+	Height:360px;
+	border: 1px solid black;
+	float:left;
+	overflow: auto;
+	}
+
+#nav h1 {
+	font-Size:28px;
+	Color:Black;
+	}
+
+#nav ul {
+	list-style:none;
+	margin-left:-40px;
+
+}
+
+#nav ul li a {
+	background:black;
+	color:yellow;
+	padding: 1px 1px;
+	text-decoration:none;
+
+}
+
+#nav ul li a:hover {
+	background:white;
+	Color:black;
+}
+
+
+#pink {
+	clear:left;
+	width: 180px;
+	height: 165px;
+	border: 1px solid black;
+	float:left;
+	Color:black;
+	background-color:pink;
+	overflow: auto;
+	}
+
+#pink h1 
+	{ margin-top:-5px;
+	color:black;
+	font-size:28px;
+	
+	}
+
+#pink p { background:black;
+	color:pink;
+	text-decoration:italics;
+	font-size:16px;
+
+	} 
+
+#Body { 
+	Z-index:3;
+	width:800px;
+	height:550px;
+	Color:black;
+	background-color:white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	overflow: auto;
+	box-shadow:0px 0px 10px 2px grey;
+	border: 2px solid black;
+	
+	}
+
+
+
+#blue {	
+	Clear:right;
+	width: 179px;
+	height: 180px;
+	border: 1px solid black;
+	float:right;
+	Color:black;
+	background-color:teal;
+	padding:10px;
+	overflow: auto;
+	}
+
+#blue h1 
+	{ margin-top:-5px;
+	color:black;
+	font-size:28px;
+	}
+
+#vote ul li a {
+	background:black;
+	color:Blue;
+	padding: 1px 1px;
+	text-decoration:none;
+
+
+}
+
+#vote ul li a:hover {
+	background:pink;
+	Color:black;
+	cursor:Crosshair;
+}
+
+#green {
+	Clear: none;
+	width: 180px;
+	height: 165px;
+	border: 1px solid black;
+	float:right;
+	Color:black;
+	background-color:green;
+	padding:10px;
+	overflow: auto;
+	}
+
+#green h1 
+	{ margin-top:-5px;
+	color:black;
+	font-size:28px;
+	
+	}
+
+#green p{ background:black;
+	color:green;
+	text-decoration:italics;
+	font-size:16px;
+}
+
+
+#red {
+	Z-index:2;
+	Text-align:center;
+	Clear: none;
+	background-color:maroon;
+	height: 115px;
+	width: 1200px;
+	border: 1px solid black;
+	margin-top:-25px;
+	overflow: auto;
+	}
+
+#red h1
+	{ 
+	margin-top:-5px;
+	color:black;
+	font-size:28px;
+	}
+
+#red p {background:black;
+	color:red;
+	text-decoration:none;}
+
+
+
+
+#footer {
+	clear:both;
+	Color:blue;
+ 	background-color:#999999;
+ 	Text-align:right;
+	margin-top:-20px; 
+	height: 85px;
+	width: 1200px;
+	border: 2px solid black;
+	}
+
+#footer h1 {
+	font-Size:28px;
+	Color:Black;
+	Text-align:center;
+	margin-top:-25px;
+
+	}
+
+#footer B{
+	font-size:.875em;
+	font-style:courier;
+	}
+
+
+
+#foot-nav ul {
+	list-style:none;
+	Text-align:center;
+
+}
+
+#foot-nav ul li {
+	display:inline;
+}
+
+#foot-nav ul li a {
+	background:black;
+	color:yellow;
+	padding: 1px 1px;
+	text-decoration:none;
+
+
+}
+
+#foot-nav ul li a:hover {
+	background:white;
+	Color:blue;
+}
+
+
+
