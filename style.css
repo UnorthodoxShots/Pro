@@ -189,8 +189,8 @@ body {
 	Color:blue;
  	background-color:#999999;
  	Text-align:right;
-	margin-top:-20px; 
-	height: 85px;
+	margin-top: 0px; 
+	height: 95px;
 	width: 1200px;
 	border: 2px solid black;
 	}
