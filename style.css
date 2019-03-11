@@ -14,7 +14,7 @@ body {
 #header { 
 	width:1188px;
 	height:190px;
-	background-image:url("https://user-images.githubusercontent.com/43804778/54074055-fe744280-425b-11e9-97df-f933e1fec98a.jpg");
+	background-image:url("C:/Users/Dell/Desktop/Web-site/images/naut2.jpg");
 	background-size:cover;
 	Color:blue;
 	background-color: ;
@@ -24,7 +24,7 @@ body {
 }
 #nav {
 	Color:yellow; 
-	background-color:orange; 
+	background-color:#ff9900; 
 	width:180px;
 	Height:360px;
 	border: 1px solid black;
@@ -64,7 +64,7 @@ body {
 	border: 1px solid black;
 	float:left;
 	Color:black;
-	background-color:pink;
+	background-color:#ff4da6;
 	overflow: auto;
 	}
 
@@ -76,7 +76,7 @@ body {
 	}
 
 #pink p { background:black;
-	color:pink;
+	color:#ff66b3;
 	text-decoration:italics;
 	font-size:16px;
 
@@ -106,20 +106,20 @@ body {
 	border: 1px solid black;
 	float:right;
 	Color:black;
-	background-color:teal;
+	background-color:Blue;
 	padding:10px;
 	overflow: auto;
 	}
 
 #blue h1 
 	{ margin-top:-5px;
-	color:black;
+	color:#33ccff;
 	font-size:28px;
 	}
 
 #vote ul li a {
 	background:black;
-	color:Blue;
+	color:#33ccff;
 	padding: 1px 1px;
 	text-decoration:none;
 
@@ -139,7 +139,7 @@ body {
 	border: 1px solid black;
 	float:right;
 	Color:black;
-	background-color:green;
+	background-color:#80ff00;
 	padding:10px;
 	overflow: auto;
 	}
@@ -152,7 +152,7 @@ body {
 	}
 
 #green p{ background:black;
-	color:green;
+	color:#40ff00;
 	text-decoration:italics;
 	font-size:16px;
 }
@@ -162,7 +162,7 @@ body {
 	Z-index:2;
 	Text-align:center;
 	Clear: none;
-	background-color:maroon;
+	background-color:#cc0000;
 	height: 115px;
 	width: 1200px;
 	border: 1px solid black;
@@ -178,7 +178,7 @@ body {
 	}
 
 #red p {background:black;
-	color:red;
+	color: #ff1a1a;
 	text-decoration:none;}
 
 
@@ -189,7 +189,7 @@ body {
 	Color:blue;
  	background-color:#999999;
  	Text-align:right;
-	margin-top: 0px; 
+	margin-top:0px; 
 	height: 95px;
 	width: 1200px;
 	border: 2px solid black;
