@@ -5,7 +5,7 @@ body {
 
 
 #Container {
-	background-color: #00CC33;
+	background-color: #ffffff;
 	width: 1200px;
 	height: 950px;
 	margin-left: auto;
@@ -24,7 +24,7 @@ body {
 }
 #nav {
 	Color:yellow; 
-	background-color:#ff9900; 
+	background-color:#ff8000; 
 	width:180px;
 	Height:360px;
 	border: 1px solid black;
@@ -45,7 +45,7 @@ body {
 
 #nav ul li a {
 	background:black;
-	color:yellow;
+	color:#ffff00;
 	padding: 1px 1px;
 	text-decoration:none;
 
@@ -233,6 +233,3 @@ body {
 	background:white;
 	Color:blue;
 }
-
-
-
