@@ -1,7 +1,7 @@
 body { background-color: black; font-family:Arial, sans-serif,monospace; }
-#Container { background-color: #ffffff; width: 1200px; height: 950px; margin-left: auto; margin-right: auto; background-image:url("C:/Users/Dell/Desktop/Web-site/images/dark.jpg"); background-size:cover; }
+#Container { background-color: #ffffff; width: 1200px; height: 950px; margin-left: auto; margin-right: auto; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/dark.jpg"); background-size:cover; }
 #header { width:1188px; height:190px; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/naut2.jpg"); background-size:cover; Color:blue; background-color: ; padding: 5px; text-Align: center; border: 1px solid black; }
-#nav { Color:yellow; background-color:#ff8000; width:180px; Height:360px; border: 1px solid black; float:left; overflow: auto; background-image:url("C:/Users/Dell/Desktop/Web-site/images/city.jpg"); background-size:cover; } 
+#nav { Color:yellow; background-color:#ff8000; width:180px; Height:360px; border: 1px solid black; float:left; overflow: auto; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/city.jpg"); background-size:cover; } 
 #nav h1 { font-Size:28px; Color:#ffff00; } 
 #nav ul { list-style:none; margin-left:-40px; }
 #nav ul li a { background:black; color:#ffff00; padding: 1px 1px; text-decoration:none; } 
@@ -14,13 +14,13 @@ body { background-color: black; font-family:Arial, sans-serif,monospace; }
 #blue h1 { margin-top:-5px; color:#33ccff; font-size:28px; } 
 #vote ul li a { background:black; color:#33ccff; padding: 1px 1px; text-decoration:none; } 
 #vote ul li a:hover { background:#ff66b3; Color:black; cursor:Crosshair; } 
-#green { Clear: none; width: 180px; height: 165px; border: 1px solid black; float:right; Color:black; background-color:#80ff00; padding:10px; overflow: auto; background-image:url("C:/Users/Dell/Desktop/Web-site/images/astrob.jpg"); background-size:cover; } 
+#green { Clear: none; width: 180px; height: 165px; border: 1px solid black; float:right; Color:black; background-color:#80ff00; padding:10px; overflow: auto; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/astrob.jpg"); background-size:cover; } 
 #green h1 { margin-top:-5px; color:#40ff00; font-size:28px; } 
 #green p{ background:; color:#40ff00; text-decoration:italics; font-size:16px; } 
-#red { Z-index:2; Text-align:center; Clear: none; background-color:#cc0000; height: 115px; width: 1200px; border: 1px solid black; margin-top:-25px; overflow: auto; background-image:url("C:/Users/Dell/Desktop/Web-site/images/pac.png"); background-size:cover; } 
+#red { Z-index:2; Text-align:center; Clear: none; background-color:#cc0000; height: 115px; width: 1200px; border: 1px solid black; margin-top:-25px; overflow: auto; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/pac.png"); background-size:cover; } 
 #red h1 { visibility:hidden; margin-top:-5px; color: #ff1a1a; font-size:28px; } 
 #red p { visibility:hidden; background:; color: #ff1a1a; text-decoration:none;} 
-#footer { clear:both; Color:blue; background-color:#999999; Text-align:right; margin-top:0px; height: 190px; width: 1188px; border: 2px solid black; background-image:url("C:/Users/Dell/Desktop/Web-site/images/naut2.jpg"); background-size:cover; } 
+#footer { clear:both; Color:blue; background-color:#999999; Text-align:right; margin-top:0px; height: 190px; width: 1188px; border: 2px solid black; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/naut2.jpg"); background-size:cover; } 
 #footer h1 { font-Size:32px; Color:#ffff00; Text-align:center; margin-top:px; } 
 #copy{ font-size:.875em; font-style:courier; margin-top:-100px; } 
 #foot-nav ul { list-style:none; Text-align:center; } 
