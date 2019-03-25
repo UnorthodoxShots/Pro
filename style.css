@@ -10,7 +10,7 @@ body { background-color: black; font-family:Arial, sans-serif,monospace; }
 #pink h1 { margin-top:-5px; color:#ff66b3; font-size:28px; } 
 #pink p { background:; color:#ff66b3; text-decoration:italics; font-size:16px; } 
 #Body { Z-index:3; width:800px; height:550px; Color:black; background-color:white; margin-left: auto; margin-right: auto; text-align:center; overflow: auto; box-shadow:0px 0px 10px 2px grey; border: 2px solid black; } 
-#blue { Clear:right; width: 179px; height: 180px; border: 1px solid black; float:right; Color:black; background-color:Blue; padding:10px; overflow: auto; background-image:url![]("images/dark.jpg"); background-size:cover; } 
+#blue { Clear:right; width: 179px; height: 180px; border: 1px solid black; float:right; Color:black; background-color:Blue; padding:10px; overflow: auto; background-image:url("images/dark.jpg"); background-size:cover; } 
 #blue h1 { margin-top:-5px; color:#33ccff; font-size:28px; } 
 #vote ul li a { background:black; color:#33ccff; padding: 1px 1px; text-decoration:none; } 
 #vote ul li a:hover { background:#ff66b3; Color:black; cursor:Crosshair; } 
