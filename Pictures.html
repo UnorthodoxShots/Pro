@@ -74,11 +74,35 @@
 
 
 <div id="Body">
-<ul>
-<p><li> Pictures are worth 1000 words</li> </p>
-<p><li> So here is a picture with 1000 words on it</li> </p>
-<p><li> []D [] []V[] []D</li> </p>
-</ul>
+	<div>
+	<script>
+	var i = 0; //start point
+	var images = [];
+	var time = 300;
+
+	//img list
+	images[0] = 'images/images1.jpg.';
+ 	images[1] = 'images/images2.jpg.';
+	images[2] = 'images/images3.jpg.';
+	
+	//change img
+	function changeImg(){
+	document.slide.src = images [i];
+	
+	if(i < images.length - 1){
+	 i++;
+	} else {
+	i = 0;
+	}
+	setTimeout("changeImg()", time)
+	}
+	
+	window.onload = changeImg; 
+	
+</script>
+
+<Img name="slide" width="700" height="500">
+	</div>
 </div>
 
 
@@ -86,9 +110,8 @@
 			<div id="red">
 				<h1>Red:
 				</h1>
-			 <p> If you ever heard of james bond agent 007 he was here a little while ago....
-				 This used to be awhite box and then i seen a shadow and it became red...
-				 After some good theme music of course.. </p> </div>	
+			 <p> text is highlighted throughout
+			redredred</p> </div>	
 
 
 
