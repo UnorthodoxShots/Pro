@@ -1,0 +1,32 @@
+#head h1 {
+	text-align:center;
+	text-decoration: underline;
+	}
+#head h2 {
+	text-align:center;
+	text-decoration: underline;
+	}
+
+#head p {
+	text-align:center;
+	}
+
+#Body h1{
+	text-align:center;
+}
+
+#Body h2{
+	text-align:center;
+	text-decoration: underline;
+}
+#Body h3{
+	text-align:center;
+	
+}
+#Body h4{
+	text-align:center;
+	font-style: italic;
+}
+#Body p{
+	text-align:center;
+}
