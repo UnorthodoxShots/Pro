@@ -74,12 +74,27 @@
 
 
 <div id="Body">
-<ul>
-<p><li> The video sections... </li> </p>
-<p><li> blink your eyes as fast as you can</li> </p>
-<p><li> spin in circles </li> </p>
-<p><li> Kind of feels like a video huh? </li> </p>
-</ul>
+
+<script>
+function playPause(btn,vid) {
+ var vid = document.getElementById(vid);
+ if(vid.paused) {
+  vid.play ();
+  btn.innerHTML = "Pause";
+ }
+  else{
+   vid.pause ();
+   btn.innerHTML = "Play";
+  }
+}
+</script>
+<video id="my_video" controls="controls" width="788" height="500">
+<source src="C:/Users/Dell/Desktop/Web-site/video/unshot.mp4">
+</video>
+<div id="video_controls_bar">
+ <button id="playpausebtn" onclick="playPause(this,'my_video')">Play
+ </button>
+ </div>
 </div>
 
 
@@ -87,9 +102,7 @@
 			<div id="red">
 				<h1>Red:
 				</h1>
-			 <p>If you ever heard of james bond agent 007 he was here a little while ago....
-				 This used to be awhite box and then i seen a shadow and it became red...
-				 After some good theme music of course.. </p> </div>	
+			 <p> REd text is here </p> </div>	
 
 
 
