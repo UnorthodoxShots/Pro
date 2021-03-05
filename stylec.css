@@ -1,100 +1,15 @@
-body {
-	background-color: black;
-	font-family:Arial, sans-serif,monospace;
-	}
-
-
-#Container {
-	background-color: #00CC33;
-	width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
-}
-#header { 
-	width:1188px;
-	height:190px;
-	background-image:url("https://user-images.githubusercontent.com/43804778/54074055-fe744280-425b-11e9-97df-f933e1fec98a.jpg");
-	background-size:cover;
-	Color:blue;
-	background-color: ;
-	padding: 5px;
-	text-Align: center;
-	border: 1px solid black;
-}
-#nav {
-	Color:yellow; 
-	background-color:orange; 
-	width:180px;
-	Height:360px;
-	border: 1px solid black;
-	float:left;
-	overflow: auto;
-	}
-
-#nav h1 {
-	font-Size:28px;
-	Color:Black;
-	}
-
-#nav ul {
-	list-style:none;
-	margin-left:-40px;
-
-}
-
-#nav ul li a {
-	background:black;
-	color:yellow;
-	padding: 1px 1px;
-	text-decoration:none;
-
-}
-
-#nav ul li a:hover {
-	background:white;
-	Color:black;
-}
-
-
-#pink {
-	clear:left;
-	width: 180px;
-	height: 165px;
-	border: 1px solid black;
-	float:left;
-	Color:black;
-	background-color:pink;
-	overflow: auto;
-	}
-
-#pink h1 
-	{ margin-top:-5px;
-	color:black;
-	font-size:28px;
-	
-	}
-
-#pink p { background:black;
-	color:pink;
-	text-decoration:italics;
-	font-size:16px;
-
-	} 
-
-
-#Body { 
-	Z-index:3;
-	width:800px;
-	height:550px;
-	Color:black;
-	background-color:white;
-	margin-left: auto;
-	margin-right: auto;
-	text-align:center;
-	overflow: auto;
-	box-shadow:0px 0px 10px 2px grey;
-	border: 2px solid black;
-	}
+body { background-color: black; font-family:Arial, sans-serif,monospace; }
+#Container { background-color: #ffffff; width: 1200px; height: 950px; margin-left: auto; margin-right: auto; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/dark.jpg"); background-size:cover; }
+#header { width:1188px; height:190px; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/naut2.jpg"); background-size:cover; Color:blue; background-color: ; padding: 5px; text-Align: center; border: 1px solid black; }
+#nav { Color:yellow; background-color:#ff8000; width:180px; Height:360px; border: 1px solid black; float:left; overflow: auto; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/city.jpg"); background-size:cover; } 
+#nav h1 { font-Size:28px; Color:#ffff00; } 
+#nav ul { list-style:none; margin-left:-40px; }
+#nav ul li a { background:black; color:#ffff00; padding: 1px 1px; text-decoration:none; } 
+#nav ul li a:hover { background:white; Color:black; }
+#pink { clear:left; width: 180px; height: 165px; border: 1px solid black; float:left; Color:black; background-color:#F033B4; overflow: auto; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/mir.jpg"); background-size:cover; } 
+#pink h1 { margin-top:-5px; color:#ff66b3; font-size:28px; } 
+#pink p { background:; color:#ff66b3; text-decoration:italics; font-size:16px; } 
+#Body { Z-index:3; width:800px; height:550px; Color:black; background-color:white; margin-left: auto; margin-right: auto; text-align:center; overflow: auto; box-shadow:0px 0px 10px 2px grey; border: 2px solid black; } 
 /* body of the page */
 
 #Body .grid-container {
