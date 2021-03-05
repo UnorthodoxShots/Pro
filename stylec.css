@@ -97,7 +97,7 @@ body {
 	}
 /* body of the page */
 
-.grid-container {
+#Body .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
@@ -105,18 +105,18 @@ body {
   padding: 10px;
 }
 
-.grid-container > div {
+#Body .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
 }
-.dropdown {
+#Body .dropdown {
   position: relative;
   display: inline-block;
 }
 
-.dropdown-content {
+#Body .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -126,7 +126,7 @@ body {
   z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
+#Body .dropdown:hover .dropdown-content {
   display: block;
 }
 
