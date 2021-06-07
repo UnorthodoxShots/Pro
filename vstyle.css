@@ -131,7 +131,7 @@ video {width: 100%;
 @media screen and (max-width: 1108px) {	
 	#Container{width: 90%;
 				margin: auto;}
-	#header{background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/naut.jpg");
+	#header{background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/Pro/master/images/naut.jpg");
 	background-size:cover;}
 	#Bodycenter {width: 90%;
 				margin: auto;}
