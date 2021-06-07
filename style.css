@@ -25,6 +25,17 @@ body {
 	text-Align: center;
 	border: 1px solid black;
 }
+
+#Name{position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #0ff;
+    font-family: 'New Rocker', cursive;
+    font-size: 3vw;
+    opacity: 0.7;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px #000000;}
+
 #nav {
 	Color:yellow; 
 	background-color:#ff8000; 
@@ -114,6 +125,11 @@ body {
 	#pink{display: none;}
 	#blue{display: none;}
 	#green{display: none;}
+
+}
+
+@media screen and (min-width: 1108px){
+	#Name{display: none;}
 
 }
 
