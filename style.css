@@ -106,6 +106,8 @@ body {
 @media screen and (max-width: 1108px) {	
 	#Container{width: 90%;
 				margin: auto;}
+	#header{background-image:url("C:/Users/Dell/Desktop/Coding/first web site/images/naut.jpg");
+	background-size:cover;}
 	#Bodycenter {width: 90%;
 				margin: auto;}
 	#nav{display: none;}
