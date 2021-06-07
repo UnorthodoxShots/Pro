@@ -103,6 +103,19 @@ body {
     font-size: 1em;
 }
 
+@media screen and (max-width: 1108px) {	
+	#Container{width: 90%;
+				margin: auto;}
+	#Bodycenter {width: 90%;
+				margin: auto;}
+	#nav{display: none;}
+	#pink{display: none;}
+	#blue{display: none;}
+	#green{display: none;}
+
+}
+
+
 
 
 #blue {	
