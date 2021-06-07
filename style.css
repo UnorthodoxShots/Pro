@@ -1,29 +1,243 @@
-body { background-color: black; font-family:Arial, sans-serif,monospace; }
-#Container { background-color: #ffffff; width: 1200px; height: 950px; margin-left: auto; margin-right: auto; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/dark.jpg"); background-size:cover; }
-#header { width:1188px; height:190px; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/naut2.jpg"); background-size:cover; Color:blue; background-color: ; padding: 5px; text-Align: center; border: 1px solid black; }
-#nav { Color:yellow; background-color:#ff8000; width:180px; Height:360px; border: 1px solid black; float:left; overflow: auto; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/city.jpg"); background-size:cover; } 
-#nav h1 { font-Size:28px; Color:#ffff00; } 
-#nav ul { list-style:none; margin-left:-40px; }
-#nav ul li a { background:black; color:#ffff00; padding: 1px 1px; text-decoration:none; } 
-#nav ul li a:hover { background:white; Color:black; }
-#pink { clear:left; width: 180px; height: 165px; border: 1px solid black; float:left; Color:black; background-color:#F033B4; overflow: auto; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/mir.jpg"); background-size:cover; } 
-#pink h1 { margin-top:-5px; color:#ff66b3; font-size:28px; } 
-#pink p { background:; color:#ff66b3; text-decoration:italics; font-size:16px; } 
-#Body { Z-index:3; width:800px; height:550px; Color:black; background-color:white; margin-left: auto; margin-right: auto; text-align:center; overflow: auto; box-shadow:0px 0px 10px 2px grey; border: 2px solid black; } 
-#blue { Clear:right; width: 179px; height: 180px; border: 1px solid black; float:right; Color:black; background-color:Blue; padding:10px; overflow: auto; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/dark.jpg"); background-size:cover; } 
-#blue h1 { margin-top:-5px; color:#33ccff; font-size:28px; } 
-#vote ul li a { background:black; color:#33ccff; padding: 1px 1px; text-decoration:none; } 
-#vote ul li a:hover { background:#ff66b3; Color:black; cursor:Crosshair; } 
-#green { Clear: none; width: 180px; height: 165px; border: 1px solid black; float:right; Color:black; background-color:#80ff00; padding:10px; overflow: auto; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/astrob.jpg"); background-size:cover; } 
-#green h1 { margin-top:-5px; color:#40ff00; font-size:28px; } 
-#green p{ background:; color:#40ff00; text-decoration:italics; font-size:16px; } 
-#red { Z-index:2; Text-align:center; Clear: none; background-color:#cc0000; height: 115px; width: 1200px; border: 1px solid black; margin-top:-25px; overflow: auto; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/pac.png"); background-size:cover; } 
-#red h1 { visibility:hidden; margin-top:-5px; color: #ff1a1a; font-size:28px; } 
-#red p { visibility:hidden; background:; color: #ff1a1a; text-decoration:none;} 
-#footer { clear:both; Color:blue; background-color:#999999; Text-align:right; margin-top:0px; height: 190px; width: 1188px; border: 2px solid black; background-image:url("https://raw.githubusercontent.com/UnorthodoxShots/shots.github.io/master/images/naut2.jpg"); background-size:cover; } 
-#footer h1 { font-Size:32px; Color:#ffff00; Text-align:center; margin-top:px; } 
-#copy{ font-size:.875em; font-style:courier; margin-top:-100px; } 
-#foot-nav ul { list-style:none; Text-align:center; } 
-#foot-nav ul li { display:inline; } 
-#foot-nav ul li a { font-Size:20px; background:black; color:#ffff00; padding: 1px 1px; text-decoration:none; } 
- #foot-nav ul li a:hover { background:white; Color:blue; }
+* {margin: 0; padding: 0}
+
+body {
+	background-color: black;
+	font-family:Arial, sans-serif,monospace;
+	}
+
+
+#Container {
+	background-color: #ffffff;
+	width: 1200px;
+	height: 950px;
+	margin: auto;
+	background-image:url("C:/Users/Dell/Desktop/Coding/first web site/images/dark.jpg");
+	background-size:cover;
+}
+#header { 
+	width:100%;
+	height:190px;
+	background-image:url("C:/Users/Dell/Desktop/Coding/first web site/images/naut2.jpg");
+	background-size:cover;
+	Color:blue;
+	background-color: ;
+	padding: 5px;
+	text-Align: center;
+	border: 1px solid black;
+}
+#nav {
+	Color:yellow; 
+	background-color:#ff8000; 
+	width:16%;
+	Height:360px;
+	border: 1px solid black;
+	float:left;
+	overflow: auto;
+	background-image:url("C:/Users/Dell/Desktop/Coding/first web site/images/city.jpg");
+	background-size:cover;
+	}
+
+#nav h1 {
+	font-Size:2em;
+	Color:#ffff00;
+	}
+
+#nav ul {
+	list-style:none;
+
+}
+
+#nav ul li a {
+	background:black;
+	color:#ffff00;
+	padding: 1px 1px;
+	text-decoration:none;
+	font-size: 1em;
+}
+
+#nav ul li a:hover {
+	background:white;
+	Color:black;
+}
+
+
+#pink {
+	clear:left;
+	width: 16%;
+	height: 165px;
+	border: 1px solid black;
+	float:left;
+	Color:black;
+	background-color:#F033B4;
+	overflow: auto;
+	background-image:url("C:/Users/Dell/Desktop/Coding/first web site/images/mir.jpg");
+	background-size:cover;
+	}
+
+#pink h1 
+	{ margin-top:-5px;
+	color:#ff66b3;
+	font-size:2em;
+	
+	}
+
+#pink p { background:;
+	color:#ff66b3;
+	text-decoration:italics;
+	font-size:1em;
+
+	} 
+
+#Bodycenter { 
+	Z-index: 3;
+    width: 64;
+    height: 550px;
+    Color: #0ff;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow: auto;
+    box-shadow: 0px 0px 11px 2px #0ff;
+    border: .1px solid #0ff;
+    font-size: 1em;
+}
+
+
+
+#blue {	
+	Clear:right;
+	width: 16%;
+	height: 180px;
+	border: 1px solid black;
+	float:right;
+	Color:black;
+	background-color:Blue;
+	padding:10px;
+	overflow: auto;
+	background-image:url("C:/Users/Dell/Desktop/Coding/first web site/images/dark.jpg");
+	background-size:cover;
+	}
+
+#blue h1 
+	{ margin-top:-5px;
+	color:#33ccff;
+	font-size:2em;
+	}
+
+#vote ul li a {
+	background:black;
+	color:#33ccff;
+	padding: 1px 1px;
+	text-decoration:none;
+
+
+}
+
+#vote ul li a:hover {
+	background:#ff66b3;
+	Color:black;
+	cursor:Crosshair;
+}
+
+#green {
+	Clear: none;
+	width: 16%;
+	height: 165px;
+	border: 1px solid black;
+	float:right;
+	Color:black;
+	background-color:#80ff00;
+	padding:10px;
+	overflow: auto;
+	background-image:url("C:/Users/Dell/Desktop/Coding/first web site/images/astrob.jpg");
+	background-size:cover;
+	}
+
+#green h1 
+	{ margin-top:-5px;
+	color:#40ff00;
+	font-size:28px;
+	
+	}
+
+#green p{ background:;
+	color:#40ff00;
+	text-decoration:italics;
+	font-size:1em;
+}
+
+
+#red {
+	Z-index:2;
+	Text-align:center;
+	Clear: none;
+	background-color:#cc0000;
+	height: 20%;
+	width: 100%;
+	border: 1px solid black;
+	overflow: hidden;
+	background-image:url("C:/Users/Dell/Desktop/Coding/first web site/images/pac.png");
+	background-size:cover;
+	margin-top: 2px;
+	position: relative;
+	}
+
+#red h1
+	{ visibility:hidden;
+	margin-top:-5px;
+	color: #ff1a1a;
+	font-size:28px;
+	}
+
+#red p { 
+	visibility:hidden;
+	background:;
+	color: #ff1a1a;
+	text-decoration:none;}
+
+
+
+#copy{
+	font-size:.875em;
+	font-style:courier;
+	margin-top:-100px;
+	}
+
+#topbar{
+background-color: #000;
+height: 35px;
+width: 100%;
+padding-top: 10px;
+color: #ffffff;
+position: fixed;
+top: 0px;}
+
+#topbar ul {
+
+	list-style:none;
+	Text-align:center;
+
+}
+
+#topbar ul li {
+	display:inline;
+}
+
+#topbar ul li a {
+	font-Size: 1.25em;
+    background: black;
+    color: #0ff;
+    padding: 1px 1px;
+    text-decoration: none;
+    border-left: 1px solid #00C3FF;
+}
+}
+
+#topbar ul li a:hover {
+	background:white;
+	Color:blue;
+}
+
+
+
